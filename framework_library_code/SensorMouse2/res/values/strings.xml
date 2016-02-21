@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="main_menu_array">
+	    <item>启动鼠标</item>
+	    <item>关闭鼠标</item>
+	    <item>本机支持的sensor列表</item>
+	    <item>鼠标移动设置</item>
+	    <item>鼠标点击设置</item>
+	</string-array>
+    <string name="original_data_str">原始数据</string>
+    <string name="filter_data_str">过滤后数据</string>
+	<string-array name="state_mode_array">
+	    <item>按键模式启动</item>
+	    <item>图片模式启动</item>
+	    <item>向左移动虚拟按钮</item>
+	    <item>向右移动虚拟按钮</item>
+	    <item>可选功能键触发</item>
+	</string-array>
+</resources>

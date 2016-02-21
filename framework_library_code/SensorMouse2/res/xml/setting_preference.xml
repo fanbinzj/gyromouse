@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory />
+	<Preference />
+	<Preference />
+	<ListPreference android:key="sensor_type_list"
+	    android:title="传感器类型" />
+	<ListPreference android:key="sensor_rate_list"
+	    android:title="传感器频率"
+	    android:defaultValue="3" />
+	<EditTextPreference android:key="averagenum_edit"
+	    android:title="平均算法的数量"
+	    android:defaultValue="5"
+	    android:dialogTitle="平均数量设置"
+	    android:dialogMessage="只能是整数" />
+	<EditTextPreference android:key="magnification_edit"
+	    android:title="放大率倍数(支持小数)"
+	    android:defaultValue="5.0"
+	    android:dialogTitle="放大率设置"
+	    android:dialogMessage="可以是浮点数" />
+	<EditTextPreference android:key="offset_edit"
+	    android:title="位移单位"
+	    android:defaultValue="1"
+	    android:dialogTitle="位移单位设置"
+	    android:dialogMessage="请输入一个整数" />
+	<SwitchPreference android:key="direction_switch"
+	    android:summary="位移方向"
+	    android:defaultValue="true"
+	    android:switchTextOn="正向"
+	    android:switchTextOff="负向" />
+	<EditTextPreference android:key="threshold_edit"
+	    android:title="阀值"
+	    android:defaultValue="0.0"
+	    android:dialogTitle="阀值设置"
+	    android:dialogMessage="请输入一个浮点数" />
+</PreferenceScreen>

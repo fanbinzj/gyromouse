@@ -1,0 +1,77 @@
+03-20 10:46:08.800: E/InputDispatcher(171): InputDispatcher.cpp : notifyMotion() : args-> action = 0
+03-20 10:46:08.804: E/MYTAG(1098): dispatchTouchEvent: action = 0
+03-20 10:46:08.808: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+03-20 10:46:08.816: E/MYTAG(1098): dispatchTouchEvent: action = 0
+03-20 10:46:08.816: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+03-20 10:46:08.820: E/MYTAG(1098): dispatchTouchEvent: action = 0
+03-20 10:46:08.820: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+03-20 10:46:08.824: E/MYTAG(1098): dispatchTouchEvent: action = 0
+03-20 10:46:08.824: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+03-20 10:46:08.828: I/System.out(1098): action = 0, count = 1, id = 0
+
+
+
+
+03-20 10:46:08.839: E/MYTAG(1098): Instrumentation.java : sendPointerSync() action = 0
+03-20 10:46:08.847: E/MYTAG(171): WindowManagerService.java : injectPointerEvent() action = 0, sync = true
+03-20 10:46:08.847: E/MYTAG(171): InputManager.java -> injectInputEvent() : syncMode = 0
+
+
+03-20 10:46:08.851: E/InputDispatcher(171): InputDispatcher.cpp -> synthesizeCancelationEvents()
+
+
+03-20 10:46:08.851: E/MYTAG(1098): dispatchTouchEvent: action = 3
+03-20 10:46:08.851: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+03-20 10:46:08.851: E/MYTAG(1098): ViewGroup.java : dispatchTransformedTouchEvent
+03-20 10:46:08.851: E/MYTAG(1098): ViewGroup.java : dispatchTransformedTouchEvent
+03-20 10:46:08.851: E/MYTAG(1098): dispatchTouchEvent: action = 3
+03-20 10:46:08.851: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+03-20 10:46:08.851: E/MYTAG(1098): ViewGroup.java : dispatchTransformedTouchEvent
+03-20 10:46:08.851: E/MYTAG(1098): ViewGroup.java : dispatchTransformedTouchEvent
+03-20 10:46:08.851: E/MYTAG(1098): dispatchTouchEvent: action = 3
+03-20 10:46:08.851: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+03-20 10:46:08.851: E/MYTAG(1098): ViewGroup.java : dispatchTransformedTouchEvent
+03-20 10:46:08.851: E/MYTAG(1098): ViewGroup.java : dispatchTransformedTouchEvent
+03-20 10:46:08.851: E/MYTAG(1098): dispatchTouchEvent: action = 3
+03-20 10:46:08.855: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+03-20 10:46:08.855: E/MYTAG(1098): ViewGroup.java : dispatchTransformedTouchEvent
+03-20 10:46:08.855: E/MYTAG(1098): ViewGroup.java : dispatchTransformedTouchEvent
+03-20 10:46:08.855: I/System.out(1098): action = 3, count = 1, id = 0
+03-20 10:46:08.859: E/MYTAG(1098): dispatchTouchEvent: action = 0
+03-20 10:46:08.859: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+03-20 10:46:08.859: E/MYTAG(1098): dispatchTouchEvent: action = 0
+03-20 10:46:08.859: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+03-20 10:46:08.859: E/MYTAG(1098): dispatchTouchEvent: action = 0
+03-20 10:46:08.859: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+03-20 10:46:08.863: E/MYTAG(1098): dispatchTouchEvent: action = 0
+03-20 10:46:08.863: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+03-20 10:46:08.863: E/MYTAG(1098): dispatchTouchEvent: action = 1
+03-20 10:46:08.863: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+03-20 10:46:08.863: E/MYTAG(1098): dispatchTouchEvent: action = 1
+03-20 10:46:08.863: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+03-20 10:46:08.863: E/MYTAG(1098): dispatchTouchEvent: action = 1
+03-20 10:46:08.863: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+03-20 10:46:08.867: E/MYTAG(1098): dispatchTouchEvent: action = 1
+03-20 10:46:08.867: E/MYTAG(1098): ViewGroup.java : dispatchTouchEvent()
+
+03-20 10:46:08.867: E/InputDispatcher(171): InputDispatcher.cpp : notifyMotion() : args-> action = 1
+
+
+03-20 10:46:08.875: I/System.out(1098): CCCCCCCCCCClick
+03-20 10:46:08.882: D/AudioHardware(100): AudioHardware pcm playback is exiting standby.
+03-20 10:46:08.882: D/AudioHardware(100): openPcmOut_l() mPcmOpenCnt: 0
+03-20 10:46:11.976: D/AudioHardware(100): AudioHardware pcm playback is going to standby.
+03-20 10:46:11.976: D/AudioHardware(100): closePcmOut_l() mPcmOpenCnt: 1
+
+===========================================================================================
+
+03-20 11:16:44.429: E/InputDispatcher(166): InputDispatcher::dispatchMotionLocked : entry->action = 1
+03-20 11:16:44.429: E/InputDispatcher(166): InputDispatcher::dispatchEventToCurrentInputTargetsLocked : 1
+03-20 11:16:44.429: E/InputDispatcher(166): InputDispatcher::dispatchEventToCurrentInputTargetsLocked : 2
+
+03-20 11:17:44.417: E/InputDispatcher(166): InputDispatcher::dispatchMotionLocked : entry->action = 1
+03-20 11:17:44.417: E/InputDispatcher(166): InputDispatcher::dispatchMotionLocked : 4
+
+
+
+

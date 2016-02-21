@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jwisp.sensormouse.activity"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:sharedUserId="android.uid.system" >
+
+    <uses-sdk android:minSdkVersion="14" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" /> 
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+
+    <application android:name="jwisp.sensormouse.activity.MainApplication"
+        android:theme="@android:style/Theme.Black.NoTitleBar">
+        <activity
+            android:name=".MainActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name="jwisp.sensormouse.activity.ControllerService"
+            android:process="jwisp.sensormouse.service.self"/>
+        <activity android:name="jwisp.sensormouse.sensor.SensorListActivity" />
+        <activity android:name="jwisp.sensormouse.sensor.SensorDetailActivity" />
+        <activity android:name="jwisp.sensormouse.setting.SettingActivity" />
+        <activity android:name="jwisp.sensormouse.mouse.MouseStartActivity" />
+        <activity android:name="jwisp.sensormouse.button.ButtonSettingActivity" />
+    </application>
+
+</manifest>

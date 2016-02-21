@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<EditTextPreference android:key="back_time_edit"
+	    android:title="回溯时间长度(毫秒)"
+	    android:defaultValue="300"
+	    android:dialogTitle="回溯时间长度"
+	    android:dialogMessage="必须是整数" />
+	<EditTextPreference android:key="time_unit_edit"
+	    android:title="回溯单位"
+	    android:defaultValue="10"
+	    android:dialogTitle="回溯单位设置"
+	    android:dialogMessage="只能是整数" />
+	<EditTextPreference android:key="time_wait_edit"
+	    android:title="鼠标锁定时间(毫秒)"
+	    android:defaultValue="100"
+	    android:dialogTitle="鼠标锁定时间"
+	    android:dialogMessage="只能是整数" />
+</PreferenceScreen>
